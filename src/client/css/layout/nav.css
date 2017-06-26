@@ -1,0 +1,26 @@
+.nav{
+  background: #423A8F;
+  padding: 21px;
+  display: none;
+
+  &.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+.nav-list{
+  display: block;
+
+  &--item{
+    float: left;
+    width: 100%;
+    text-align: center;
+
+    & a{
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.button{
+  color: white;
+  text-transform: uppercase;
+  border-radius: 6px;
+  border: none;
+  padding: 0px 35px;
+  font-size: .7em;
+  height: inherit;
+
+  &.primary{
+    background: #FF655B;
+  }
+
+  &.danger{
+    color: red;
+  }
+
+  &.clear{
+    background: transparent;
+    border: none;
+  }
+
+  &.sign-up{
+    background: white;
+    color: #423A8F;
+  }
+
+  &.shadow{
+    box-shadow: 0 7px 30px rgba(0,0,0,.2);
+  }
+
+  &-no-border{
+    border:
+  }
+}

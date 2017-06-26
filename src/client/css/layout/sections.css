@@ -1,0 +1,60 @@
+.intro, .what, .plans, .quote, .offer, .footer{
+  padding: 80px 0;
+  text-align: center;
+}
+
+.where{
+  height: 400px;
+}
+
+.intro, .offer{
+  padding-bottom: 200px;
+}
+
+.intro{
+  background: #423A8F;
+  color: white;
+  height: 40vh;
+  position: relative;
+
+  & .contents{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+  }
+
+  & p{
+    color: white;
+    font-weight: lighter;
+  }
+
+  & h1, & h4{
+    color: white;
+  }
+
+  & h4{
+    font-size: 1em;
+    letter-spacing: 4px;
+    text-transform: capitalize;
+  }
+}
+
+.offer{
+  position: relative;
+}
+
+.section-footer-clouds{
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  width: 100%;
+}
+
+.plans, .offer, .quote{
+  background: #F8F9F9;
+}
+
+.quote{
+  padding-top: 0;
+}

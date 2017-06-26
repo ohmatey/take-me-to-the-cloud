@@ -1,0 +1,56 @@
+.card{
+  background: transparent;
+  padding: 14px 35px;
+  margin: 35px 0;
+  border-radius: 10px;
+
+  &.card-shadow{
+    box-shadow: 0 21px 40px rgba(200,200,200,.2);
+  }
+
+  &.card-white{
+    background: white;
+  }
+
+  &.basic{
+
+    & button{
+      background: #FFBB44;
+      width: 100%;
+      padding: 7px 0;
+    }
+
+    & h5{
+      color: #FFBB44;
+      margin-bottom: 35px;
+    }
+  }
+
+  &.pro{
+
+    & button{
+      background: #39BBAF;
+      width: 100%;
+      padding: 7px 0;
+    }
+
+    & h5{
+      color: #39BBAF;
+      margin-bottom: 35px;
+    }
+  }
+
+  &.performance{
+
+    & button{
+      background: #FF655B;
+      width: 100%;
+      padding: 7px 0;
+    }
+
+    & h5{
+      color: #FF655B;
+      margin-bottom: 35px;
+    }
+  }
+}

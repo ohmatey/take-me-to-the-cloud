@@ -1,0 +1,9 @@
+@import "./buttons";
+@import "./fonts";
+@import "./ul";
+@import "./input";
+
+hr{
+  border: 1px solid #F5F5F7;
+  font-size: 2px;
+}
